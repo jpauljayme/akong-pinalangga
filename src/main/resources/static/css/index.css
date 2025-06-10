@@ -4,10 +4,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Dawning of a New Day';
+    src: url("/fonts/DawningofaNewDay-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
 * {
     padding: 0px;
     margin: 0px;
-    font-family: OpenSans-Regular, sans-serif;
+    font-family: Dawning of a New Day, sans-serif;
 }
 
 .grid-wrapper {
