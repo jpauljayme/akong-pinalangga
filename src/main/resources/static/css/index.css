@@ -22,15 +22,22 @@
     gap: 20px;
 }
 
+.header{
+    border-bottom: 0.1em solid gray;
+
+}
+
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    min-height: 80vh;
+    min-height: 50vh;
     justify-content: center;
     background: #F5F6FA;
-    gap: 50px;
+    gap: 30px;
+    padding: 25px;
+    background-color: #008080;
 }
 
 .card-img {
@@ -39,16 +46,23 @@
 }
 
 .board {
-    background: hsl(26 25 53);
     display: grid;
     gap: 200px;
     justify-items: center;
     padding: 50px;
 }
 
-.intro {
-}
 
 .header-title {
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+
 }
